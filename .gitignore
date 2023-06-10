@@ -1,0 +1,22 @@
+node_modules
+.env
+.env.production
+.env.rinkeby
+coverage
+coverage.json
+typechain
+deployments/localhost
+gas-report.txt
+export/*
+
+#Hardhat files
+cache
+artifacts
+out
+types
+abi
+
+.idea
+
+.vscode
+.prettierrc

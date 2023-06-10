@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": { 
+    "quotes": ["error", "double"],
+    // we want to force semicolons
+    "semi": ["error", "always"],
+    // we use 4 spaces to indent our code
+    "indent": ["warn", 4,  { "SwitchCase": 1 }]
+  }
+}
